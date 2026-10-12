@@ -9,6 +9,7 @@ flake8
 ipython
 #### Add text to install the python-package here
 -e ./python-package
+setuptools
 
 # The latest version of below libraries are not compatible with above libraries' versions
 fastcore==1.7.18
