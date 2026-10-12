@@ -8,3 +8,11 @@ pytest
 flake8
 ipython
 #### Add text to install the python-package here
+-e ./python-package
+
+# The latest version of below libraries are not compatible with above libraries' versions
+fastcore==1.7.18
+fastlite==0.0.13
+starlette==0.34.0
+uvicorn[standard]==0.30
+
